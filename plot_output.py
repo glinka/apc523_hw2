@@ -34,6 +34,12 @@ if __name__=="__main__":
         fig = plt.figure()
         ax = fig.add_subplot(111)
         ax.plot(data)
+        ax.set_xlabel("jacobi step")
+        ax.set_ylabel("error")
+        ax.set_yscale('log')
+        ax.set_ylim((0.09, 1))
+        ax.set_yticks((0.1, 0.3, 0.5, 0.7, 0.9, 1))
+        ax.set_yticklabels((0.1, 0.3, 0.5, 0.7, 0.9, 1))
         plt.show()
         
         

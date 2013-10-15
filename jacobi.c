@@ -17,7 +17,7 @@ double get_error(double *x, double *x_final) {
 
 int main(int argc, char **argv) {
     const double PI = 3.14159265;
-    const int index = 1;
+    const int index = 2;
     const int max_iter = 1000;
     const double alpha = 2;
     double errors[max_iter];
